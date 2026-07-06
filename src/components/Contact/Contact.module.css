@@ -1,0 +1,92 @@
+.contact {
+  padding: var(--space-section) 0;
+}
+
+.inner {
+  max-width: var(--max-width-narrow);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sectionLabel {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.heading {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-lg);
+  color: var(--color-text);
+}
+
+.description {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-2xl);
+  line-height: var(--leading-relaxed);
+}
+
+.emailLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-lg) var(--space-2xl);
+  background: var(--color-text);
+  color: var(--color-bg);
+  border-radius: var(--radius-full);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: all var(--duration-normal) var(--ease-out-expo);
+  margin-bottom: var(--space-3xl);
+}
+
+.emailLink:hover {
+  background: var(--color-accent);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.socialRow {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-xl);
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  transition: color var(--duration-fast) var(--ease-out-quad);
+}
+
+.socialLink:hover {
+  color: var(--color-accent);
+}
+
+.socialIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .emailLink {
+    font-size: var(--text-base);
+    padding: var(--space-md) var(--space-xl);
+  }
+
+  .socialRow {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+  }
+}
