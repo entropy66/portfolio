@@ -64,7 +64,7 @@ const zhTW = {
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: '中國',
-    avatar: '/avatar.png',
+    avatar: '/portfolio/avatar.png',
     social: [
       { platform: 'WhatsApp', url: 'https://wa.me/85254834987', icon: 'whatsapp' },
       { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/michael-zhang-6a6483420/', icon: 'linkedin' },
