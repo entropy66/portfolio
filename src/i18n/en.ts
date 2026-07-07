@@ -8,10 +8,9 @@ const en = {
   },
 
   hero: {
-    greeting: "Hi, I'm",
+    greeting: 'Engineering · Technology',
     ctaProjects: 'View Projects',
     ctaContact: 'Contact Me',
-    scrollHint: 'Scroll Down',
   },
 
   about: {

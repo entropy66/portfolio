@@ -8,10 +8,9 @@ const zhCN = {
   },
 
   hero: {
-    greeting: '你好，我是',
+    greeting: '工程 · 技术',
     ctaProjects: '查看项目',
     ctaContact: '联系我',
-    scrollHint: '向下滚动',
   },
 
   about: {
