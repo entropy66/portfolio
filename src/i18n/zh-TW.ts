@@ -16,7 +16,7 @@ const zhTW = {
 
   about: {
     label: '關於我',
-    heading: '從招標學徒到技術創業者',
+    heading: '從建築工程師到技術創業者',
     location: '位置',
     email: '郵箱',
     phone: '電話',
@@ -59,8 +59,8 @@ const zhTW = {
   personal: {
     name: '張煒健',
     title: '工程背景 · 技術能力',
-    tagline: '從招標學徒到獨立負責項目，用工程思維做技術產品',
-    bio: '廣東工業大學土木工程學士，2年香港Chevalier建築公司經驗。從招標學徒起步，3個月後獨立負責政府項目招標；駐場簡約公屋9個月，製作RIF 1000+份，從施工新人成長為項目協調人。2025年投身創業，搭建AI中轉站實現500+用戶、200億Token消耗。正在尋找將工程思維與技術能力結合的新機會。',
+    tagline: '2年香港建築行業經驗，用工程思維做技術產品',
+    bio: '廣東工業大學土木工程學士，2年香港Chevalier建築公司助理工程師經驗。負責政府基建項目的招標、施工、行政全流程協調，確保項目按期完成。具備紮實的工程素養——從BQ編寫、施工驗收到HKSSM規範應用。2025年投身創業，搭建AI中轉站實現500+用戶、200億Token消耗。正在尋找將工程思維與技術能力結合的新機會。',
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: '中國',
@@ -73,10 +73,10 @@ const zhTW = {
 
   skillsData: [
     { name: 'HKSSM 規範度數', category: 'engineering' as const },
-    { name: 'BQ 製作（獨立完成2個項目）', category: 'engineering' as const },
-    { name: 'RIF 製作（1000+份）', category: 'engineering' as const },
-    { name: '施工驗收流程（ITAP）', category: 'engineering' as const },
+    { name: 'BQ 製作', category: 'engineering' as const },
+    { name: '施工驗收流程（RIF / ITAP）', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
+    { name: '項目進度管理與協調', category: 'engineering' as const },
     { name: 'React / Vite（前端開發）', category: 'tech' as const },
     { name: 'Python（數據分析、量化策略）', category: 'tech' as const },
     { name: 'AI 工具應用（ChatGPT/Claude）', category: 'tech' as const },
@@ -89,14 +89,12 @@ const zhTW = {
       company: 'Chevalier (Construction) Company Limited',
       role: '助理工程師（AE）',
       period: '2023.10 — 2025.09',
-      description: '覆蓋招標、施工、行政三個階段，從學徒成長為獨當一面的項目協調人。',
+      description: '負責政府基建項目招標、施工、行政全流程協調，確保項目按期完成。',
       highlights: [
-        '【招標】參與6個政府基建項目招標（SSM 520公屋、SSN 505公共市場等）',
-        '【招標】獨立負責2個項目的完整招標流程，掌握從圖紙到BQ的轉化能力',
-        '【施工】駐場SSM518簡約公屋項目9個月，製作RIF 1000+份',
-        '【施工】參與excavation、backfilling、footing、MIC installation等多項驗收',
-        '【施工】後期負責協調施工人員、材料，協調政府部門和業主部門驗收',
-        '【行政】處理公司前10年文件（人事、財務）的檢查和驗收',
+        '【招標】參與6個政府基建項目招標（SSM 520公屋、SSN 505公共市場等），負責招標文件整理和BQ製作',
+        '【施工】駐場SSM518簡約公屋項目9個月，協調施工進度，解決施工過程中遇到的各種問題',
+        '【施工】協調政府部門和業主部門驗收工程，確保項目按期交付',
+        '【行政】處理公司前10年文件（人事、財務）的檢查和整理',
         '【行政】協助處理合作公司利益糾紛，幫助公司維護權益',
       ],
       technologies: ['HKSSM', 'BQ', 'RIF', 'ITAP', 'Code of Practice', 'Buildings Ordinance'],

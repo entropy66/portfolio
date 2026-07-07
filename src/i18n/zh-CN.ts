@@ -16,7 +16,7 @@ const zhCN = {
 
   about: {
     label: '关于我',
-    heading: '从招标学徒到技术创业者',
+    heading: '从建筑工程师到技术创业者',
     location: '位置',
     email: '邮箱',
     phone: '电话',
@@ -59,8 +59,8 @@ const zhCN = {
   personal: {
     name: '张炜健',
     title: '工程背景 · 技术能力',
-    tagline: '从招标学徒到独立负责项目，用工程思维做技术产品',
-    bio: '广东工业大学土木工程学士，2年香港Chevalier建筑公司经验。从招标学徒起步，3个月后独立负责政府项目招标；驻场简约公屋9个月，制作RIF 1000+份，从施工新人成长为项目协调人。2025年投身创业，搭建AI中转站实现500+用户、200亿Token消耗。正在寻找将工程思维与技术能力结合的新机会。',
+    tagline: '2年香港建筑行业经验，用工程思维做技术产品',
+    bio: '广东工业大学土木工程学士，2年香港Chevalier建筑公司助理工程师经验。负责政府基建项目的招标、施工、行政全流程协调，确保项目按期完成。具备扎实的工程素养——从BQ编写、施工验收到HKSSM规范应用。2025年投身创业，搭建AI中转站实现500+用户、200亿Token消耗。正在寻找将工程思维与技术能力结合的新机会。',
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: '中国',
@@ -73,10 +73,10 @@ const zhCN = {
 
   skillsData: [
     { name: 'HKSSM 规范度数', category: 'engineering' as const },
-    { name: 'BQ 制作（独立完成2个项目）', category: 'engineering' as const },
-    { name: 'RIF 制作（1000+份）', category: 'engineering' as const },
-    { name: '施工验收流程（ITAP）', category: 'engineering' as const },
+    { name: 'BQ 制作', category: 'engineering' as const },
+    { name: '施工验收流程（RIF / ITAP）', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
+    { name: '项目进度管理与协调', category: 'engineering' as const },
     { name: 'React / Vite（前端开发）', category: 'tech' as const },
     { name: 'Python（数据分析、量化策略）', category: 'tech' as const },
     { name: 'AI 工具应用（ChatGPT/Claude）', category: 'tech' as const },
@@ -89,14 +89,12 @@ const zhCN = {
       company: 'Chevalier (Construction) Company Limited',
       role: '助理工程师（AE）',
       period: '2023.10 — 2025.09',
-      description: '覆盖招标、施工、行政三个阶段，从学徒成长为独当一面的项目协调人。',
+      description: '负责政府基建项目招标、施工、行政全流程协调，确保项目按期完成。',
       highlights: [
-        '【招标】参与6个政府基建项目招标（SSM 520公屋、SSN 505公共市场等）',
-        '【招标】独立负责2个项目的完整招标流程，掌握从图纸到BQ的转化能力',
-        '【施工】驻场SSM518简约公屋项目9个月，制作RIF 1000+份',
-        '【施工】参与excavation、backfilling、footing、MIC installation等多项验收',
-        '【施工】后期负责协调施工人员、材料，协调政府部门和业主部门验收',
-        '【行政】处理公司前10年文件（人事、财务）的检查和验收',
+        '【招标】参与6个政府基建项目招标（SSM 520公屋、SSN 505公共市场等），负责招标文件整理和BQ制作',
+        '【施工】驻场SSM518简约公屋项目9个月，协调施工进度，解决施工过程中遇到的各种问题',
+        '【施工】协调政府部门和业主部门验收工程，确保项目按期交付',
+        '【行政】处理公司前10年文件（人事、财务）的检查和整理',
         '【行政】协助处理合作公司利益纠纷，帮助公司维护权益',
       ],
       technologies: ['HKSSM', 'BQ', 'RIF', 'ITAP', 'Code of Practice', 'Buildings Ordinance'],

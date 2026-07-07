@@ -16,7 +16,7 @@ const en = {
 
   about: {
     label: 'About Me',
-    heading: 'From Tender Apprentice to Tech Entrepreneur',
+    heading: 'From Building Engineer to Tech Entrepreneur',
     location: 'Location',
     email: 'Email',
     phone: 'Phone',
@@ -59,8 +59,8 @@ const en = {
   personal: {
     name: 'Zhang Weijian',
     title: 'Engineering Background · Technical Skills',
-    tagline: 'From tender apprentice to independent project lead — building tech products with engineering thinking',
-    bio: "B.Eng. in Civil Engineering from Guangdong University of Technology. 2 years at Chevalier Construction in Hong Kong — started as a tender apprentice, independently managing government project tenders within 3 months. On-site at SSM518 public housing for 9 months, producing 1000+ RIFs, growing from site newcomer to project coordinator. Started a tech business in 2025, building an AI token platform with 500+ users and 20B+ tokens consumed. Seeking opportunities that combine engineering thinking with technical capability.",
+    tagline: '2 years in Hong Kong construction — building tech products with engineering thinking',
+    bio: "B.Eng. in Civil Engineering from Guangdong University of Technology. 2 years as Assistant Engineer at Chevalier Construction in Hong Kong — coordinated government infrastructure projects across tender, site, and admin phases, ensuring on-time delivery. Solid engineering skills from BQ preparation to site inspection and HKSSM compliance. Started a tech business in 2025, building an AI token platform with 500+ users and 20B+ tokens consumed. Seeking opportunities that combine engineering thinking with technical capability.",
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: 'China',
@@ -73,10 +73,10 @@ const en = {
 
   skillsData: [
     { name: 'HKSSM Specification', category: 'engineering' as const },
-    { name: 'BQ Preparation (2 independent projects)', category: 'engineering' as const },
-    { name: 'RIF Production (1000+ forms)', category: 'engineering' as const },
-    { name: 'Site Inspection (ITAP)', category: 'engineering' as const },
+    { name: 'BQ Preparation', category: 'engineering' as const },
+    { name: 'Site Inspection (RIF / ITAP)', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
+    { name: 'Project Coordination & Management', category: 'engineering' as const },
     { name: 'React / Vite (Frontend Development)', category: 'tech' as const },
     { name: 'Python (Data Analysis, Quant Strategy)', category: 'tech' as const },
     { name: 'AI Tools (ChatGPT/Claude)', category: 'tech' as const },
@@ -89,14 +89,12 @@ const en = {
       company: 'Chevalier (Construction) Company Limited',
       role: 'Assistant Engineer (AE)',
       period: '2023.10 — 2025.09',
-      description: 'Covered tender, site, and admin phases — grew from apprentice to independent project coordinator.',
+      description: 'Coordinated government infrastructure projects across tender, site, and admin phases, ensuring on-time delivery.',
       highlights: [
-        '【Tender】Participated in 6 government infrastructure tenders (SSM 520, SSN 505, etc.)',
-        '【Tender】Independently managed 2 full tender processes, mastered drawing-to-BQ conversion',
-        '【Site】On-site at SSM518 public housing for 9 months, produced 1000+ RIFs',
-        '【Site】Participated in excavation, backfilling, footing, MIC installation inspections',
-        '【Site】Later coordinated workers, materials, and government/client department inspections',
-        '【Admin】Reviewed 10 years of company files (HR, finance) for audit',
+        '【Tender】Participated in 6 government infrastructure tenders (SSM 520, SSN 505, etc.), handled tender documents and BQ preparation',
+        '【Site】On-site at SSM518 public housing for 9 months, coordinated construction progress and solved on-site issues',
+        '【Site】Coordinated government and client department inspections, ensured on-time project delivery',
+        '【Admin】Reviewed 10 years of company files (HR, finance) for audit and organization',
         '【Admin】Assisted in resolving partner company disputes, protecting company interests',
       ],
       technologies: ['HKSSM', 'BQ', 'RIF', 'ITAP', 'Code of Practice', 'Buildings Ordinance'],
