@@ -8,7 +8,8 @@ const resume: ResumeData = {
     bio: '广东工业大学土木工程学士。2年香港Chevalier建筑公司助理工程师，负责政府基建项目全流程协调。2025年投身科技创业，独立搭建AI平台实现500+用户、200亿Token消耗并盈利。经历过量化交易的风控失败，深刻理解"技术只是工具，风险管理才是核心"。正在寻找将工程思维与技术能力结合的新机会。',
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
-    location: '中国',
+    location: '香港九龙城 / 深圳南山',
+    blog: 'https://www.negentropypath.top/',
     social: [
       { platform: 'WhatsApp', url: 'https://wa.me/85254834987', icon: 'whatsapp' },
     ],
@@ -75,12 +76,13 @@ const resume: ResumeData = {
     {
       id: 'proj-2',
       title: 'AI 中转站',
-      description: '解决中国大陆用户无法访问ChatGPT/Claude的信息不对称问题。',
+      description: '解决中国大陆用户无法访问ChatGPT/Claude的信息不对称问题。用CLV模型和ROI夏普比率验证项目可行性。',
       technologies: ['AI API', '支付系统', '平台搭建'],
       highlights: [
-        '500+用户注册，200亿+Token消耗',
-        '实现盈利，因竞争加剧主动离场',
-        '展示了发现商机、快速执行、风险判断的能力',
+        '模型验证：CLV/CAC > 5，ROI为正，用户持续消耗Token',
+        '500+用户注册，200亿+Token消耗，实现盈利',
+        '退出决策：竞争加剧→价格弹性变大→主动离场',
+        '验证了CLV模型和ROI夏普比率理论在实际业务中的应用',
       ],
     },
     {
