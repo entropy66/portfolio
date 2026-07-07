@@ -98,6 +98,34 @@
   transform: translateY(-2px);
 }
 
+.stats {
+  display: flex;
+  gap: var(--space-2xl);
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--color-border);
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.statValue {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+}
+
+.statLabel {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 .scrollHint {
   position: absolute;
   bottom: var(--space-2xl);

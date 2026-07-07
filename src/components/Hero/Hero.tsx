@@ -77,6 +77,21 @@ export function Hero() {
             {t.hero.ctaContact}
           </a>
         </motion.div>
+
+        <motion.div
+          className={styles.stats}
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          custom={5}
+        >
+          {t.stats.map((stat) => (
+            <div key={stat.label} className={styles.statItem}>
+              <span className={styles.statValue}>{stat.value}</span>
+              <span className={styles.statLabel}>{stat.label}</span>
+            </div>
+          ))}
+        </motion.div>
       </div>
 
       <motion.div
