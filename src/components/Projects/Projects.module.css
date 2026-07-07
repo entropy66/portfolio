@@ -1,117 +1,69 @@
 .projects {
-  padding: var(--space-section) 0;
-  background: var(--color-bg-subtle);
+  background: var(--bg3);
+  padding: var(--space-section) var(--space-lg);
 }
-
-.sectionLabel {
-  font-size: var(--text-xs);
+.inner { max-width: var(--max-width); margin: 0 auto; }
+.sectionTag {
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--color-accent);
-  font-weight: 600;
-  font-family: var(--font-mono);
-  margin-bottom: var(--space-md);
-  text-align: center;
+  color: var(--ac);
+  font-weight: 500;
+  font-family: var(--fm);
+  margin-bottom: 12px;
 }
-
 .heading {
-  font-size: var(--text-2xl);
-  text-align: center;
-  margin-bottom: var(--space-3xl);
-  color: var(--color-text);
+  font-size: clamp(1.6rem, 1.2rem + 1.5vw, 2.2rem);
+  margin-bottom: 2.5rem;
 }
-
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
-  background: var(--color-border);
-  border: 1px solid var(--color-border);
+  background: var(--bd);
+  border: 1px solid var(--bd);
 }
-
 .card {
-  background: var(--color-bg);
-  padding: var(--space-xl);
+  background: var(--bg2);
+  padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
-  transition: background var(--duration-normal) var(--ease-out-expo);
 }
-
-.card:hover { background: var(--color-bg-subtle); }
-
 .cardTitle {
-  font-size: var(--text-xl);
+  font-size: 1.1rem;
   font-weight: 600;
-  font-family: var(--font-display);
-  color: var(--color-text);
-  margin-bottom: var(--space-md);
+  font-family: var(--fd);
+  margin-bottom: 12px;
 }
-
 .cardDesc {
-  font-size: var(--text-sm);
-  color: var(--color-text-secondary);
+  font-size: 13px;
+  color: var(--tx2);
   line-height: var(--leading-relaxed);
-  margin-bottom: var(--space-lg);
+  margin-bottom: 1rem;
   flex: 1;
 }
-
-.cardHighlights {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
-  margin-bottom: var(--space-lg);
-}
-
+.cardHighlights { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1rem; }
 .cardHighlight {
-  font-size: var(--text-xs);
-  color: var(--color-text-secondary);
-  padding-left: var(--space-md);
+  font-size: 12px;
+  color: var(--tx2);
+  padding-left: 16px;
   position: relative;
 }
-
 .cardHighlight::before {
   content: '\2192';
   position: absolute;
   left: 0;
-  color: var(--color-accent);
+  color: var(--ac);
 }
-
-.techList {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
-  margin-bottom: var(--space-lg);
-}
-
+.techList { display: flex; flex-wrap: wrap; gap: 6px; }
 .techTag {
-  font-size: var(--text-xs);
-  padding: 2px var(--space-sm);
-  background: var(--color-accent-light);
+  font-size: 10px;
+  padding: 2px 6px;
+  background: var(--ac-l);
+  color: var(--ac);
   border-radius: 2px;
-  color: var(--color-accent);
-  font-weight: 500;
-  font-family: var(--font-mono);
+  font-family: var(--fm);
 }
-
-.links {
-  display: flex;
-  gap: var(--space-md);
-  margin-top: auto;
-  padding-top: var(--space-md);
-  border-top: 1px solid var(--color-border);
-}
-
-.projectLink {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  color: var(--color-accent);
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-xs);
-}
-
-.projectLink:hover { color: var(--color-accent-hover); }
-
 @media (max-width: 768px) {
   .grid { grid-template-columns: 1fr; }
 }
