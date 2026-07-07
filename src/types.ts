@@ -4,6 +4,7 @@ export interface PersonalInfo {
   tagline: string
   bio: string
   avatar?: string
+  blog?: string
   email: string
   phone?: string
   location: string

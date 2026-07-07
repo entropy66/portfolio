@@ -64,6 +64,7 @@ const zhCN = {
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: '九龙城, 香港 / 南山, 深圳',
+    blog: 'https://www.negentropypath.top/',
     avatar: '/portfolio/avatar.png',
     social: [
       { platform: 'WhatsApp', url: 'https://wa.me/85254834987', icon: 'whatsapp' },

@@ -64,6 +64,7 @@ const en = {
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: 'Kowloon City, HK / Nanshan, Shenzhen',
+    blog: 'https://www.negentropypath.top/',
     avatar: '/portfolio/avatar.png',
     social: [
       { platform: 'WhatsApp', url: 'https://wa.me/85254834987', icon: 'whatsapp' },
