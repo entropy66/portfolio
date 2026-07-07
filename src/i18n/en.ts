@@ -28,8 +28,8 @@ const en = {
     heading: 'Technical Abilities',
     categories: {
       engineering: 'Engineering',
-      tech: 'Digital Tech',
-      general: 'General',
+      tech: 'Tech Tools',
+      general: 'Core Competencies',
     },
   },
 
@@ -77,8 +77,9 @@ const en = {
     { name: 'Site Inspection (RIF / ITAP)', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
     { name: 'Project Coordination & Management', category: 'engineering' as const },
-    { name: 'React / Vite (Frontend Development)', category: 'tech' as const },
-    { name: 'Python (Data Analysis, Quant Strategy)', category: 'tech' as const },
+    { name: 'Problem Solving: resolved disputes, protected company interests', category: 'general' as const },
+    { name: 'Coordination: managed construction progress, ensured on-time delivery', category: 'general' as const },
+    { name: 'Fast Learner: independent in 3 months from apprentice', category: 'general' as const },
     { name: 'AI Tools (ChatGPT/Claude)', category: 'tech' as const },
     { name: 'English (2 years in HK work environment)', category: 'general' as const },
   ],
@@ -112,7 +113,7 @@ const en = {
         '【Lesson】Learned that risk management matters more than technical tools',
         '【Info System】Built AI-powered market information processing platform',
       ],
-      technologies: ['AI API', 'Python', 'React', 'Data Analysis'],
+      technologies: ['AI API', 'Data Analysis', 'AI Tools'],
     },
   ],
 
@@ -121,7 +122,7 @@ const en = {
       id: 'proj-1',
       title: 'AI Token Platform',
       description: 'Solving the information asymmetry for mainland China users unable to access ChatGPT/Claude.',
-      technologies: ['AI API', 'Payment System', 'React', 'Web Dev'],
+      technologies: ['AI API', 'Payment System', 'Platform'],
       highlights: [
         '500+ users, 20B+ tokens consumed',
         'Profitable — exited proactively due to rising competition',
@@ -134,7 +135,7 @@ const en = {
       id: 'proj-2',
       title: 'Quantitative Trading (Failed Case)',
       description: 'AI-assisted automated trading strategy development.',
-      technologies: ['Python', 'Data Analysis', 'AI Tools'],
+      technologies: ['AI Tools', 'Data Analysis'],
       highlights: [
         'Developed automated trading strategy with AI assistance',
         'Lost $10K+ due to insufficient risk management',
@@ -147,7 +148,7 @@ const en = {
       id: 'proj-3',
       title: 'Information Processing System',
       description: 'AI-powered market information processing and analysis platform.',
-      technologies: ['Web Dev', 'Data Processing', 'AI Tools'],
+      technologies: ['AI Tools', 'Data Processing'],
       highlights: [
         'Built information processing workflow',
         'Improved data processing efficiency',

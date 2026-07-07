@@ -28,8 +28,8 @@ const zhCN = {
     heading: '技术能力',
     categories: {
       engineering: '工程技术',
-      tech: '数字技术',
-      general: '通用能力',
+      tech: '技术工具',
+      general: '综合能力',
     },
   },
 
@@ -77,8 +77,9 @@ const zhCN = {
     { name: '施工验收流程（RIF / ITAP）', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
     { name: '项目进度管理与协调', category: 'engineering' as const },
-    { name: 'React / Vite（前端开发）', category: 'tech' as const },
-    { name: 'Python（数据分析、量化策略）', category: 'tech' as const },
+    { name: '解决问题：处理利益纠纷，维护公司权益', category: 'general' as const },
+    { name: '项目协调：协调施工进度，确保按期完成', category: 'general' as const },
+    { name: '快速学习：3个月从学徒到独立负责项目', category: 'general' as const },
     { name: 'AI 工具应用（ChatGPT/Claude）', category: 'tech' as const },
     { name: '英文读写（香港工作环境2年）', category: 'general' as const },
   ],
@@ -112,7 +113,7 @@ const zhCN = {
         '【教训】深刻理解风控重要性：技术只是工具，风险管理才是核心',
         '【信息处理】搭建AI对市场的信息处理和加工平台',
       ],
-      technologies: ['AI API', 'Python', 'React', '数据分析'],
+      technologies: ['AI API', '数据分析', 'AI 工具'],
     },
   ],
 
@@ -121,7 +122,7 @@ const zhCN = {
       id: 'proj-1',
       title: 'AI 中转站',
       description: '解决中国大陆用户无法使用ChatGPT/Claude的信息不对称问题。',
-      technologies: ['AI API', '支付系统', 'React', '网站开发'],
+      technologies: ['AI API', '支付系统', '平台搭建'],
       highlights: [
         '500+用户注册，消耗Token 200亿+',
         '实现盈利，后因竞争加剧主动离场',
@@ -134,7 +135,7 @@ const zhCN = {
       id: 'proj-2',
       title: '量化交易策略（失败案例）',
       description: '用AI工具辅助开发量化交易策略，尝试自动化交易。',
-      technologies: ['Python', '数据分析', 'AI 工具'],
+      technologies: ['AI 工具', '数据分析'],
       highlights: [
         '用AI辅助开发自动化交易策略',
         '因风控不足亏损1万多美元，项目失败',
@@ -147,7 +148,7 @@ const zhCN = {
       id: 'proj-3',
       title: '信息处理系统',
       description: 'AI对市场的信息处理和加工平台。',
-      technologies: ['Web 开发', '数据处理', 'AI 工具'],
+      technologies: ['AI 工具', '数据处理'],
       highlights: [
         '搭建信息处理工作流',
         '提升数据处理效率',
