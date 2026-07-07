@@ -13,37 +13,22 @@ export function About() {
       <div className="container">
         <div className={styles.grid} ref={ref}>
           <motion.div
-            className={styles.avatarWrapper}
-            initial={{ opacity: 0, x: -40 }}
+            className={styles.left}
+            initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           >
-            {personal.avatar ? (
-              <img
-                src={personal.avatar}
-                alt={personal.name}
-                className={styles.avatar}
-              />
-            ) : (
-              <div className={styles.avatarPlaceholder}>
-                {personal.name.charAt(0)}
-              </div>
-            )}
-            <div className={styles.avatarDecor} />
-          </motion.div>
+            <div className={styles.avatarWrapper}>
+              {personal.avatar ? (
+                <img src={personal.avatar} alt={personal.name} className={styles.avatar} />
+              ) : (
+                <div className={styles.avatarPlaceholder}>
+                  {personal.name.charAt(0)}
+                </div>
+              )}
+            </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 40 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.7, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-          >
-            <p className={styles.sectionLabel}>{t.about.label}</p>
-            <h2 className={styles.heading}>
-              {t.about.heading}
-            </h2>
-            <p className={styles.bio}>{personal.bio}</p>
-
-            <div className={styles.infoGrid}>
+            <div className={styles.quickInfo}>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>{t.about.location}</span>
                 <span className={styles.infoValue}>{personal.location}</span>
@@ -60,16 +45,6 @@ export function About() {
                   <span className={styles.infoValue}>{personal.phone}</span>
                 </div>
               )}
-              {personal.blog && (
-                <div className={styles.infoItem}>
-                  <span className={styles.infoLabel}>Blog</span>
-                  <span className={styles.infoValue}>
-                    <a href={personal.blog} target="_blank" rel="noopener noreferrer">
-                      {personal.blog.replace('https://', '')}
-                    </a>
-                  </span>
-                </div>
-              )}
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>{t.about.social}</span>
                 <span className={styles.infoValue}>
@@ -84,6 +59,17 @@ export function About() {
                 </span>
               </div>
             </div>
+          </motion.div>
+
+          <motion.div
+            className={styles.right}
+            initial={{ opacity: 0, x: 30 }}
+            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.7, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <p className={styles.sectionLabel}>{t.about.label}</p>
+            <h2 className={styles.heading}>{t.about.heading}</h2>
+            <p className={styles.bio}>{personal.bio}</p>
           </motion.div>
         </div>
       </div>
