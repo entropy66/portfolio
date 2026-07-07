@@ -120,6 +120,20 @@ const zhTW = {
   projectsData: [
     {
       id: 'proj-1',
+      title: 'AI 跟單系統',
+      description: '與圈友合作開發的AI驅動自動跟單系統，用LLM解析Discord交易信號並自動執行交易。',
+      technologies: ['AI API', 'Discord API', '交易所API', 'Docker', '雲服務器'],
+      highlights: [
+        '一鍵部署：雲服務器安裝腳本即可完成系統部署',
+        '信號解析：用ChatGPT/DeepSeek自動識別和解析交易員信號',
+        '自動下單：對接Bybit/Bitget/Binance等交易所API',
+        '風控管理：支持以損定量、槓桿設置、分批止盈等風控策略',
+      ],
+      github: undefined,
+      link: undefined,
+    },
+    {
+      id: 'proj-2',
       title: 'AI 中轉站',
       description: '解決中國大陸用戶無法使用ChatGPT/Claude的信息不對稱問題。',
       technologies: ['AI API', '支付系統', '平台搭建'],
@@ -132,7 +146,7 @@ const zhTW = {
       link: undefined,
     },
     {
-      id: 'proj-2',
+      id: 'proj-3',
       title: '量化交易策略（失敗案例）',
       description: '用AI工具輔助開發量化交易策略，嘗試自動化交易。',
       technologies: ['AI 工具', '數據分析'],
@@ -140,18 +154,6 @@ const zhTW = {
         '用AI輔助開發自動化交易策略',
         '因風控不足虧損1萬多美元，項目失敗',
         '教訓：過度依賴AI、風控不足、缺乏實戰經驗',
-      ],
-      github: undefined,
-      link: undefined,
-    },
-    {
-      id: 'proj-3',
-      title: '信息處理系統',
-      description: 'AI對市場的信息處理和加工平台。',
-      technologies: ['AI 工具', '數據處理'],
-      highlights: [
-        '搭建信息處理工作流',
-        '提升數據處理效率',
       ],
       github: undefined,
       link: undefined,

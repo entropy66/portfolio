@@ -120,6 +120,20 @@ const en = {
   projectsData: [
     {
       id: 'proj-1',
+      title: 'AI Copy Trading System',
+      description: 'Collaborated with community members to build an AI-powered copy trading system that parses Discord trading signals via LLM and executes trades automatically.',
+      technologies: ['AI API', 'Discord API', 'Exchange API', 'Docker', 'Cloud Server'],
+      highlights: [
+        'One-click deployment: install script on cloud server to complete setup',
+        'Signal parsing: ChatGPT/DeepSeek auto-identifies and parses trader signals',
+        'Auto trading: integrated with Bybit/Bitget/Binance exchange APIs',
+        'Risk management: supports loss-based sizing, leverage settings, batch take-profit',
+      ],
+      github: undefined,
+      link: undefined,
+    },
+    {
+      id: 'proj-2',
       title: 'AI Token Platform',
       description: 'Solving the information asymmetry for mainland China users unable to access ChatGPT/Claude.',
       technologies: ['AI API', 'Payment System', 'Platform'],
@@ -132,7 +146,7 @@ const en = {
       link: undefined,
     },
     {
-      id: 'proj-2',
+      id: 'proj-3',
       title: 'Quantitative Trading (Failed Case)',
       description: 'AI-assisted automated trading strategy development.',
       technologies: ['AI Tools', 'Data Analysis'],
@@ -140,18 +154,6 @@ const en = {
         'Developed automated trading strategy with AI assistance',
         'Lost $10K+ due to insufficient risk management',
         'Lesson: over-reliance on AI, weak risk control, lack of live trading experience',
-      ],
-      github: undefined,
-      link: undefined,
-    },
-    {
-      id: 'proj-3',
-      title: 'Information Processing System',
-      description: 'AI-powered market information processing and analysis platform.',
-      technologies: ['AI Tools', 'Data Processing'],
-      highlights: [
-        'Built information processing workflow',
-        'Improved data processing efficiency',
       ],
       github: undefined,
       link: undefined,

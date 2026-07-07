@@ -63,6 +63,18 @@ const resume: ResumeData = {
   projects: [
     {
       id: 'proj-1',
+      title: 'AI 跟单系统',
+      description: '与圈友合作开发的AI驱动自动跟单系统，用LLM解析Discord交易信号并自动执行交易。',
+      technologies: ['AI API', 'Discord API', '交易所API', 'Docker', '云服务器'],
+      highlights: [
+        '一键部署：云服务器安装脚本即可完成系统部署',
+        '信号解析：用ChatGPT/DeepSeek自动识别和解析交易员信号',
+        '自动下单：对接Bybit/Bitget/Binance等交易所API',
+        '风控管理：支持以损定量、杠杆设置、分批止盈等风控策略',
+      ],
+    },
+    {
+      id: 'proj-2',
       title: 'AI 中转站',
       description: '解决中国大陆用户无法使用ChatGPT/Claude的信息不对称问题。',
       technologies: ['AI API', '支付系统', '平台搭建'],
@@ -73,7 +85,7 @@ const resume: ResumeData = {
       ],
     },
     {
-      id: 'proj-2',
+      id: 'proj-3',
       title: '量化交易策略（失败案例）',
       description: '用AI工具辅助开发量化交易策略，尝试自动化交易。',
       technologies: ['AI 工具', '数据分析'],
@@ -81,16 +93,6 @@ const resume: ResumeData = {
         '用AI辅助开发自动化交易策略',
         '因风控不足亏损1万多美元，项目失败',
         '教训：过度依赖AI、风控不足、缺乏实战经验',
-      ],
-    },
-    {
-      id: 'proj-3',
-      title: '信息处理系统',
-      description: 'AI对市场的信息处理和加工平台。',
-      technologies: ['AI 工具', '数据处理'],
-      highlights: [
-        '搭建信息处理工作流',
-        '提升数据处理效率',
       ],
     },
   ],
