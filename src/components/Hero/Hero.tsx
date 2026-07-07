@@ -78,16 +78,6 @@ export function Hero() {
           </a>
         </motion.div>
       </div>
-
-      <motion.div
-        className={styles.scrollHint}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2, duration: 0.8 }}
-      >
-        <span>{t.hero.scrollHint}</span>
-        <div className={styles.scrollLine} />
-      </motion.div>
     </section>
   )
 }
