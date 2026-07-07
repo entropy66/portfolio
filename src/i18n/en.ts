@@ -79,16 +79,20 @@ const en = {
   ],
 
   skillsData: [
-    { name: 'HKSSM Specification', category: 'engineering' as const },
+    { name: 'HKSSM Specification Application', category: 'engineering' as const },
     { name: 'BQ Preparation & Cost Estimation', category: 'engineering' as const },
     { name: 'Site Inspection (RIF / ITAP)', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
-    { name: 'Project Coordination & Multi-stakeholder Management', category: 'engineering' as const },
-    { name: 'AI Tools Deep Application (ChatGPT/Claude)', category: 'tech' as const },
-    { name: 'Dispute Resolution & Company Interest Protection', category: 'general' as const },
-    { name: 'Cross-department Coordination & On-time Delivery', category: 'general' as const },
-    { name: 'Fast Learner: independent in 3 months from apprentice', category: 'general' as const },
-    { name: 'English Working Communication (HK 2 years)', category: 'general' as const },
+    { name: 'Project Coordination & Multi-stakeholder Communication', category: 'engineering' as const },
+    { name: 'AI Tools Deep Application (ChatGPT / Claude / Codex / Claude Code / Vibe Coding)', category: 'tech' as const },
+    { name: 'AutoCAD (2D Drafting)', category: 'tech' as const },
+    { name: 'Revit (BIM)', category: 'tech' as const },
+    { name: 'SAP2000 (Structural Analysis)', category: 'tech' as const },
+    { name: 'Python (Data Analysis, Quant Strategies)', category: 'tech' as const },
+    { name: 'Problem-solving: dispute resolution, construction technical issues', category: 'general' as const },
+    { name: 'Project Management: coordinated 3 HK government projects', category: 'general' as const },
+    { name: 'Risk Judgment: proactive exit from AI platform, risk lessons from quant loss', category: 'general' as const },
+    { name: 'Fast Learning: from zero to independent project lead in 3 months', category: 'general' as const },
   ],
 
   experienceData: [

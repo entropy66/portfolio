@@ -79,16 +79,20 @@ const zhTW = {
   ],
 
   skillsData: [
-    { name: 'HKSSM 規範', category: 'engineering' as const },
-    { name: 'BQ 製作與成本估算', category: 'engineering' as const },
-    { name: '工地驗收 (RIF / ITAP)', category: 'engineering' as const },
+    { name: 'HKSSM 規範應用', category: 'engineering' as const },
+    { name: 'BQ 編寫與成本估算', category: 'engineering' as const },
+    { name: '施工驗收（RIF / ITAP）', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
     { name: '項目協調與多方溝通', category: 'engineering' as const },
-    { name: 'AI 工具深度應用 (ChatGPT/Claude)', category: 'tech' as const },
-    { name: '爭議解決與公司利益保護', category: 'general' as const },
-    { name: '跨部門協調與按時交付', category: 'general' as const },
-    { name: '快速學習：3個月從學徒獨立', category: 'general' as const },
-    { name: '英文工作溝通（香港2年）', category: 'general' as const },
+    { name: 'AI 工具深度應用（ChatGPT / Claude / Codex / Claude Code / Vibe Coding）', category: 'tech' as const },
+    { name: 'AutoCAD（2D圖紙繪製）', category: 'tech' as const },
+    { name: 'Revit（建築信息模型 BIM）', category: 'tech' as const },
+    { name: 'SAP2000（結構分析與計算）', category: 'tech' as const },
+    { name: 'Python（數據分析、量化策略）', category: 'tech' as const },
+    { name: '解決問題能力：處理利益糾紛、解決施工技術問題', category: 'general' as const },
+    { name: '項目管理能力：協調3個香港政府項目，確保按期交付', category: 'general' as const },
+    { name: '風險判斷能力：AI中轉站主動離場，量化虧損中提煉風控認知', category: 'general' as const },
+    { name: '快速學習能力：3個月從零基礎獨立負責項目', category: 'general' as const },
   ],
 
   experienceData: [
