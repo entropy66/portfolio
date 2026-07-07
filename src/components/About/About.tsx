@@ -60,6 +60,16 @@ export function About() {
                   <span className={styles.infoValue}>{personal.phone}</span>
                 </div>
               )}
+              {personal.blog && (
+                <div className={styles.infoItem}>
+                  <span className={styles.infoLabel}>Blog</span>
+                  <span className={styles.infoValue}>
+                    <a href={personal.blog} target="_blank" rel="noopener noreferrer">
+                      {personal.blog.replace('https://', '')}
+                    </a>
+                  </span>
+                </div>
+              )}
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>{t.about.social}</span>
                 <span className={styles.infoValue}>
