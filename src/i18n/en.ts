@@ -74,8 +74,8 @@ const en = {
 
   stats: [
     { value: '500+', label: 'Users' },
-    { value: '1400+亿', label: 'Tokens' },
-    { value: '盈利', label: '主动离场' },
+    { value: '140B+', label: 'Tokens' },
+    { value: 'Profit', label: 'Exit' },
   ],
 
   skillsData: [
