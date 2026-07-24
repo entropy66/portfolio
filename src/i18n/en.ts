@@ -60,7 +60,7 @@ const en = {
     name: 'Zhang Weijian',
     title: 'Engineering Background · Technical Skills',
     tagline: 'From construction site to startup — building tech products with engineering thinking',
-    bio: 'B.Eng. in Civil Engineering from Guangdong University of Technology. 2 years as Assistant Engineer at Chevalier Construction in Hong Kong — coordinated government infrastructure projects across tender, site, and admin phases, ensuring on-time delivery. Started a tech business in 2025, building an AI token platform with 500+ users and 20B+ tokens consumed, profitable. Experienced a quant trading loss due to poor risk management, learning that "technology is just a tool, risk management is the core". Seeking opportunities that combine engineering thinking with technical capability.',
+    bio: 'B.Eng. in Civil Engineering from Guangdong University of Technology. 2 years as Assistant Engineer at Chevalier Construction in Hong Kong — coordinated government infrastructure projects across tender, site, and admin phases, ensuring on-time delivery. Started a tech business in 2025, building an AI token platform with 500+ users and 140B+ tokens consumed, profitable. Experienced a quant trading loss due to poor risk management, learning that "technology is just a tool, risk management is the core". Seeking opportunities that combine engineering thinking with technical capability.',
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: 'Kowloon City, HK / Nanshan, Shenzhen',
@@ -74,7 +74,7 @@ const en = {
 
   stats: [
     { value: '500+', label: 'Users' },
-    { value: '200亿', label: 'Tokens' },
+    { value: '1400+亿', label: 'Tokens' },
     { value: '盈利', label: '主动离场' },
   ],
 
@@ -118,7 +118,7 @@ const en = {
       period: '2025.11 — 2026.06',
       description: 'Explored tech entrepreneurship — AI platform profitable, quant strategy experienced setback with core lesson learned.',
       highlights: [
-        'Built AI Token trading platform: 500+ users, 20B+ tokens consumed, profitable',
+        'Built AI Token trading platform: 500+ users, 140B+ tokens consumed, profitable',
         'Proactively exited due to rising competition and ban risk — demonstrated risk judgment',
         'Developed AI-assisted quant strategy, experienced loss due to poor risk management, extracted "risk management > tech" insight',
         'Built AI-powered market information processing platform, improved data processing efficiency',
@@ -149,7 +149,7 @@ const en = {
       technologies: ['AI API', 'Payment System', 'Platform'],
       highlights: [
         'Model validation: CLV/CAC > 5, positive ROI, sustained token consumption',
-        '500+ users registered, 20B+ tokens consumed, profitable',
+        '500+ users registered, 140B+ tokens consumed, profitable',
         'Exit decision: rising competition → increasing price elasticity → proactive exit',
         'Validated CLV model and ROI Sharpe Ratio theory in real business',
       ],

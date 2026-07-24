@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>张炜健 - 简历</title>
+<style>
+  @page { margin: 0; size: A4; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-size: 10pt;
+    line-height: 1.5;
+    color: #1a1a1a;
+    background: #f5f5f5;
+    padding: 40px 20px;
+  }
+
+  .page {
+    max-width: 210mm;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+  }
+
+  /* Header */
+  .header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 36px 44px 32px;
+  }
+  .header h1 {
+    font-size: 28pt;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+  .header .title {
+    font-size: 12pt;
+    color: #c2553a;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  .header .tagline {
+    font-size: 9.5pt;
+    color: #bbb;
+    font-style: italic;
+    max-width: 80%;
+  }
+  .header .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    margin-top: 14px;
+    font-size: 8.5pt;
+    color: #ccc;
+  }
+  .header .contact-row a { color: #ddd; text-decoration: none; }
+  .header .contact-row a:hover { color: #c2553a; }
+
+  /* Body */
+  .body { padding: 32px 44px 40px; }
+
+  /* Section */
+  .section { margin-bottom: 24px; }
+  .section:last-child { margin-bottom: 0; }
+
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #c2553a;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #e5e0d8;
+    margin-bottom: 14px;
+  }
+
+  /* Bio */
+  .bio {
+    font-size: 9pt;
+    line-height: 1.65;
+    color: #444;
+  }
+
+  /* Skills */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .skill-cat h3 {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .skill-cat ul {
+    list-style: none;
+  }
+  .skill-cat li {
+    font-size: 8.5pt;
+    color: #555;
+    line-height: 1.6;
+    padding-left: 12px;
+    position: relative;
+  }
+  .skill-cat li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #c2553a;
+  }
+
+  /* Experience */
+  .exp-item { margin-bottom: 18px; }
+  .exp-item:last-child { margin-bottom: 0; }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+  .exp-role { font-size: 10pt; font-weight: 700; color: #1a1a1a; }
+  .exp-period { font-size: 8pt; color: #888; font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
+  .exp-company { font-size: 9pt; color: #c2553a; font-weight: 600; margin-bottom: 6px; }
+  .exp-desc { font-size: 8.5pt; color: #666; margin-bottom: 4px; }
+  .exp-highlights {
+    list-style: none;
+    margin: 4px 0 6px;
+  }
+  .exp-highlights li {
+    font-size: 8.5pt;
+    color: #444;
+    line-height: 1.55;
+    padding-left: 14px;
+    position: relative;
+  }
+  .exp-highlights li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #c2553a;
+  }
+  .exp-tech {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .exp-tech span {
+    font-size: 7.5pt;
+    padding: 1px 8px;
+    background: #f0ece6;
+    border-radius: 3px;
+    color: #666;
+  }
+
+  /* Projects */
+  .proj-item {
+    margin-bottom: 14px;
+    page-break-inside: avoid;
+  }
+  .proj-item:last-child { margin-bottom: 0; }
+  .proj-title { font-size: 10pt; font-weight: 700; color: #1a1a1a; margin-bottom: 1px; }
+  .proj-desc { font-size: 8.5pt; color: #555; line-height: 1.5; margin-bottom: 2px; }
+  .proj-highlights {
+    list-style: none;
+    margin: 2px 0 4px;
+  }
+  .proj-highlights li {
+    font-size: 8.5pt;
+    color: #444;
+    line-height: 1.5;
+    padding-left: 14px;
+    position: relative;
+  }
+  .proj-highlights li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #c2553a;
+  }
+
+  /* Stats row */
+  .stats-row {
+    display: flex;
+    gap: 40px;
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #e5e0d8;
+  }
+  .stat-item { text-align: center; }
+  .stat-value { font-size: 14pt; font-weight: 700; color: #1a1a1a; display: block; }
+  .stat-label { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.1em; }
+
+  /* Education */
+  .edu-item { margin-bottom: 4px; }
+  .edu-school { font-size: 9.5pt; font-weight: 600; color: #1a1a1a; }
+  .edu-detail { font-size: 8.5pt; color: #555; }
+
+  /* Print */
+  @media print {
+    body { background: #fff; padding: 0; }
+    .page { box-shadow: none; max-width: 100%; }
+    .header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .exp-tech span { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>张炜健</h1>
+    <div class="title">工程背景 · 技术能力</div>
+    <div class="tagline">从工地到创业——用工程思维打造技术产品</div>
+    <div class="contact-row">
+      <span>📧 entropy688@gmail.com</span>
+      <span>📞 +86 173-8880-5447</span>
+      <span>💬 WhatsApp: +852 54834987</span>
+      <span>🔗 linkedin.com/in/michael-zhang-6a6483420</span>
+      <span>🌐 negentropypath.top</span>
+    </div>
+    <div class="stats-row">
+      <div class="stat-item"><span class="stat-value">500+</span><span class="stat-label">Users</span></div>
+      <div class="stat-item"><span class="stat-value">1400+亿</span><span class="stat-label">Tokens</span></div>
+      <div class="stat-item"><span class="stat-value">盈利</span><span class="stat-label">主动离场</span></div>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="body">
+
+    <!-- About -->
+    <div class="section">
+      <div class="section-title">个人简介</div>
+      <div class="bio">
+        广东工业大学土木工程学士。在香港 Chevalier 建筑公司担任助理工程师 2 年——协调政府基建项目招标、施工、行政三个阶段，确保按时交付。
+        2025 年开始科技创业，搭建 AI Token 平台，500+ 用户，1400+ 亿 Token 消耗，盈利。
+        经历过量化交易亏损，深刻认识到"技术只是工具，风控才是核心"。
+        正在寻找将工程思维与技术能力结合的新机会。
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+      <div class="section-title">技术能力</div>
+      <div class="skills-grid">
+        <div class="skill-cat">
+          <h3>工程技术</h3>
+          <ul>
+            <li>HKSSM 规范应用</li>
+            <li>BQ 编写与成本估算</li>
+            <li>施工验收（RIF / ITAP）</li>
+            <li>Code of Practice / Buildings Ordinance</li>
+            <li>项目协调与多方沟通</li>
+          </ul>
+        </div>
+        <div class="skill-cat">
+          <h3>技术工具</h3>
+          <ul>
+            <li>AI 工具深度应用（ChatGPT / Claude / Codex / Claude Code / Vibe Coding）</li>
+            <li>AutoCAD（2D图纸绘制）</li>
+            <li>Revit（建筑信息模型 BIM）</li>
+            <li>SAP2000（结构分析与计算）</li>
+            <li>Python（数据分析、量化策略）</li>
+          </ul>
+        </div>
+        <div class="skill-cat">
+          <h3>核心能力</h3>
+          <ul>
+            <li>解决问题能力：处理利益纠纷、解决施工技术问题</li>
+            <li>项目管理能力：协调3个香港政府项目，确保按期交付</li>
+            <li>风险判断能力：AI中转站主动离场，量化亏损中提炼风控认知</li>
+            <li>快速学习能力：3个月从零基础独立负责项目</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+      <div class="section-title">工作经历</div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">助理工程师（AE）</span>
+          <span class="exp-period">2023.10 — 2025.09</span>
+        </div>
+        <div class="exp-company">Chevalier (Construction) Company Limited</div>
+        <div class="exp-desc">协调香港政府基建项目招标、施工、行政三个阶段，确保按时交付。</div>
+        <ul class="exp-highlights">
+          <li>参与 6 个政府基建项目招标（SSM 520 公屋、SSN 505 公共市场等），独立完成 BQ 制作和招标文件管理</li>
+          <li>驻场 SSM518 公屋项目 9 个月，独立协调施工进度并解决现场技术问题</li>
+          <li>对接政府部门和客户进行验收，确保项目按时交付</li>
+          <li>整理公司 10 年档案（人事、财务），优化内部管理流程</li>
+          <li>协助解决合作公司纠纷，有效保护公司利益</li>
+        </ul>
+        <div class="exp-tech">
+          <span>HKSSM</span><span>BQ</span><span>RIF</span><span>ITAP</span>
+          <span>Code of Practice</span><span>Buildings Ordinance</span>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">科技创业者</span>
+          <span class="exp-period">2025.11 — 2026.06</span>
+        </div>
+        <div class="exp-company">独立创业</div>
+        <div class="exp-desc">探索科技创业——AI 平台盈利，量化策略经历挫折并汲取核心教训。</div>
+        <ul class="exp-highlights">
+          <li>搭建 AI Token 交易平台：500+ 用户，1400+ 亿 Token 消耗，实现盈利</li>
+          <li>因竞争加剧和封禁风险主动离场——体现风险判断力</li>
+          <li>开发 AI 辅助量化策略，因风控不足导致亏损，提炼"风控 > 技术"核心认知</li>
+          <li>搭建 AI 驱动的市场信息处理平台，提升数据处理效率</li>
+        </ul>
+        <div class="exp-tech">
+          <span>AI API</span><span>数据分析</span><span>AI 工具</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+      <div class="section-title">教育背景</div>
+      <div class="edu-item">
+        <div class="edu-school">广东工业大学</div>
+        <div class="edu-detail">土木工程学士 | 2019 — 2023</div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+      <div class="section-title">项目经历</div>
+
+      <div class="proj-item">
+        <div class="proj-title">AI 跟单交易系统</div>
+        <div class="proj-desc">AI 驱动的跟单交易系统——LLM 解析 Discord 交易信号并自动执行交易。</div>
+        <ul class="proj-highlights">
+          <li>一键部署：云服务器脚本完成系统搭建</li>
+          <li>信号解析：ChatGPT/DeepSeek 自动识别交易员信号</li>
+          <li>自动交易：对接 Bybit/Bitget/Binance 交易所 API</li>
+          <li>风控管理：亏损制仓、杠杆设置、批量止盈</li>
+        </ul>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-title">AI Token 平台</div>
+        <div class="proj-desc">解决中国大陆用户无法访问 ChatGPT/Claude 的信息不对称问题。用 CLV 模型和 ROI 夏普比率验证。</div>
+        <ul class="proj-highlights">
+          <li>模型验证：CLV/CAC > 5，正向 ROI，持续 Token 消耗</li>
+          <li>500+ 用户注册，1400+ 亿 Token 消耗，盈利</li>
+          <li>退出决策：竞争加剧 → 价格弹性上升 → 主动离场</li>
+          <li>在真实商业中验证了 CLV 模型和 ROI 夏普比率理论</li>
+        </ul>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-title">量化交易探索</div>
+        <div class="proj-desc">AI 辅助量化交易策略——从失败中提炼风控方法论。</div>
+        <ul class="proj-highlights">
+          <li>借助 AI 开发自动化交易策略</li>
+          <li>因风控不足导致亏损，提炼核心教训</li>
+          <li>认知升级：过度依赖 AI、风控薄弱、缺乏实盘经验</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
