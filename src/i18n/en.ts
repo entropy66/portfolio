@@ -141,12 +141,12 @@ const en = {
     {
       id: 'proj-1',
       title: 'AI API Gateway',
-      description: 'AI API proxy service for mainland China users. 142.20B tokens consumed, 269K+ requests, 572 users, profitable exit.',
+      description: 'AI API proxy service for mainland China users. 140.98B tokens consumed, 5.69M+ requests, 572 users, profitable exit.',
       technologies: ['AI API', 'Payment System', 'Cache Optimization', 'CLV Model'],
       highlights: [
-        '142.20B tokens consumed, 269,617 requests, 572 registered users, profitable exit',
+        '140.98B tokens consumed, 5,689,657 requests, 572 registered users, profitable exit',
         'Managed 5+ models: GPT-5.4 / Claude Sonnet 4-6 / GPT-5.3 Codex / GPT-5.4 Mini / GPT-5.5',
-        'Actual cost $18.53K vs standard cost $22.38K, ~17% gross margin',
+        'Actual cost $29.23K vs standard cost $85.43K, cache savings $22.51K',
         'Cache hit rate peaked at ~100%, average response time 107ms',
         'Exit decision: rising competition → price elasticity increase → proactive exit, validated CLV model',
       ],
