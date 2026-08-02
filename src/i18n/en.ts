@@ -140,9 +140,10 @@ const en = {
 
   projectsData: [
     {
-      id: 'proj-1',
-      title: 'AI API Gateway',
-      description: 'AI API proxy service for mainland China users. 140.98B tokens consumed, 5.69M+ requests, 572 users, profitable exit.',
+          id: 'proj-1',
+          title: 'AI API Gateway',
+          image: '/portfolio/images/api-dashboard.png',
+          description: 'AI API proxy service for mainland China users. 140.98B tokens consumed, 5.69M+ requests, 572 users, profitable exit.',
       technologies: ['AI API', 'Payment System', 'Cache Optimization', 'CLV Model'],
       highlights: [
         '140.98B tokens consumed, 5,689,657 requests, 572 registered users, profitable exit',
@@ -155,9 +156,10 @@ const en = {
       link: 'https://api.negentropypath.xyz/admin/accounts',
     },
     {
-      id: 'proj-2',
-      title: 'AI Copy Trading System',
-      description: 'AI-powered multi-trader copy trading system — LLM parses Discord trading signals and executes trades automatically.',
+          id: 'proj-2',
+          title: 'AI Copy Trading System',
+          image: '/portfolio/images/copy-trading.png',
+          description: 'AI-powered multi-trader copy trading system — LLM parses Discord trading signals and executes trades automatically.',
       technologies: ['AI API', 'Discord API', 'Exchange API', 'Docker', 'Cloud Server'],
       highlights: [
         '2,156 total trades executed, covering 12+ trader signal sources',
@@ -170,9 +172,10 @@ const en = {
       link: undefined,
     },
     {
-      id: 'proj-3',
-      title: 'Quantitative Trading Engine',
-      description: 'Multi-instance parallel quant trading system — BTC/USDC perpetual contract short strategy with sub-second latency.',
+          id: 'proj-3',
+          title: 'Quantitative Trading Engine',
+          image: '/portfolio/images/quant-engine.jpg',
+          description: 'Multi-instance parallel quant trading system — BTC/USDC perpetual contract short strategy with sub-second latency.',
       technologies: ['Python', 'Exchange REST API', 'Multi-process Architecture', 'Risk Control'],
       highlights: [
         'System latency 261ms-273ms, live-trading grade execution',

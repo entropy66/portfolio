@@ -140,9 +140,10 @@ const zhCN = {
 
   projectsData: [
     {
-      id: 'proj-1',
-      title: 'AI API 中转平台',
-      description: '面向中国大陆用户的 AI API 中转服务。累计 1,409.8 亿 Token 消耗，569 万+ 请求，572 用户，实际盈利退出。',
+          id: 'proj-1',
+          title: 'AI API 中转平台',
+          image: '/portfolio/images/api-dashboard.png',
+          description: '面向中国大陆用户的 AI API 中转服务。累计 1,409.8 亿 Token 消耗，569 万+ 请求，572 用户，实际盈利退出。',
       technologies: ['AI API', '支付系统', '缓存优化', 'CLV 模型'],
       highlights: [
         '140.98B Token 消耗，5,689,657 次请求，572 注册用户，盈利退出',
@@ -155,9 +156,10 @@ const zhCN = {
       link: 'https://api.negentropypath.xyz/admin/accounts',
     },
     {
-      id: 'proj-2',
-      title: 'AI 跟单交易系统',
-      description: 'AI 驱动的多交易员跟单系统——LLM 解析 Discord 交易信号，自动对接交易所执行交易。',
+          id: 'proj-2',
+          title: 'AI 跟单交易系统',
+          image: '/portfolio/images/copy-trading.png',
+          description: 'AI 驱动的多交易员跟单系统——LLM 解析 Discord 交易信号，自动对接交易所执行交易。',
       technologies: ['AI API', 'Discord API', '交易所 API', 'Docker', '云服务器'],
       highlights: [
         '累计交易 2,156 笔，覆盖 12+ 个交易员信号源',
@@ -170,9 +172,10 @@ const zhCN = {
       link: undefined,
     },
     {
-      id: 'proj-3',
-      title: '量化交易执行引擎',
-      description: '多实例并行量化交易系统——BTC/USDC 永续合约做空策略，亚秒级延迟执行。',
+          id: 'proj-3',
+          title: '量化交易执行引擎',
+          image: '/portfolio/images/quant-engine.jpg',
+          description: '多实例并行量化交易系统——BTC/USDC 永续合约做空策略，亚秒级延迟执行。',
       technologies: ['Python', '交易所 REST API', '多进程架构', '风控系统'],
       highlights: [
         '系统延迟 261ms-273ms，实盘级执行能力',
