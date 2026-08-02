@@ -146,7 +146,7 @@ const zhTW = {
       technologies: ['AI API', '支付系統', '快取優化', 'CLV 模型'],
       highlights: [
               '140.98B Token 消耗，5,689,657 次請求，572 註冊用戶，盈利退出',
-              '管理 5+ 模型：OpenAI（GPT-4o/5）、Claude、Gemini、DeepSeek',
+              '管理 5+ 模型：OpenAI（GPT-4o/5）、Claude、Gemini',
               '實際成本 $29.23K vs 標準成本 $85.43K，快取節省 $22.51K',
               '快取命中率峰值接近 100%，平均響應時間 107ms',
               '退出決策：競爭加劇 → 價格彈性上升 → 主動離場，驗證了 CLV 模型',
