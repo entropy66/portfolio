@@ -49,7 +49,7 @@ const zhTW = {
   contact: {
     label: '聯繫',
     heading: '有想法？聊聊吧',
-    description: '無論是工作機會還是技術交流，隨時歡迎聯繫我。',
+    description: '對產品/數據方向感興趣。如果你在做 AI、基礎設施或金融科技相關的事——聊聊吧。',
   },
 
   footer: {
@@ -61,7 +61,7 @@ const zhTW = {
     name: '張煒健',
     title: '建築工程師 → 科技創業者',
     tagline: '從工地到創業——用工程思維打造技術產品',
-    bio: '廣東工業大學土木工程學士。在香港 Chevalier 建築公司擔任助理工程師 2 年——協調政府基建項目招標、施工、行政三個階段，確保按時交付。2025 年開始科技創業，搭建 AI Token 平台，500+ 用戶，1400+ 億 Token 消耗，盈利。在量化交易中驗證了「技術只是工具，風控才是核心」的認知。正在尋找將工程思維與技術能力結合的新機會。',
+    bio: '從土木工程到科技創業。2 年香港 Chevalier 助理工程師經驗，協調政府基建項目從招標到驗收全流程。2025 年獨立搭建 AI API 中轉平台：572 用戶，1400+ 億 Token 消耗，盈利退出。用工程思維做產品，用技術能力落地。正在尋找產品/數據方向的機會。',
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: '九龍城, 香港 / 南山, 深圳',
@@ -74,10 +74,11 @@ const zhTW = {
   },
 
   stats: [
-    { value: '500+', label: '用戶' },
-    { value: '1400+億', label: 'Tokens' },
-    { value: '盈利', label: '主動離場' },
-  ],
+      { value: '569萬+', label: '請求' },
+      { value: '500+', label: '用戶' },
+      { value: '1400+億', label: 'Tokens' },
+      { value: '盈利', label: '擇時退出' },
+    ],
 
   skillsData: [
     // ── 工程管理 ──
@@ -126,37 +127,39 @@ const zhTW = {
       company: '獨立創業',
       role: '科技創業者',
       period: '2025.11 — 2026.06',
-      description: '探索科技創業——AI 平台盈利，量化策略經歷挫折並汲取核心教訓。',
+      description: '探索科技創業——AI 平台盈利，量化交易系統建立系統化風控機制。',
       highlights: [
-        '搭建 AI Token 交易平台：500+ 用戶，1400+ 億 Token 消耗，盈利',
-        '因競爭加劇和封禁風險主動離場——體現風險判斷力',
-        '開發 AI 輔助量化策略，因風控不足導致虧損，提煉「風控 > 技術」認知',
-        '搭建 AI 驅動的市場信息處理平台，提升資料處理效率',
-      ],
+              '搭建 AI API 中轉平台：572 用戶，1400+ 億 Token，569 萬+ 請求，盈利退出',
+              '因競爭加劇主動離場——用 CLV 模型驗證退出時機',
+              '開發 AI 輔助量化交易系統，建立系統化風控機制（倉位管理、止損、批量止盈）',
+              '搭建 AI 驅動的市場信息處理平台，提升資料處理效率',
+            ],
       technologies: ['AI API', '資料分析', 'AI 工具'],
     },
   ],
 
   projectsData: [
     {
-      id: 'proj-1',
-      title: 'AI API 中轉平台',
-      description: '面向中國大陸用戶的 AI API 中轉服務。累計 1,422 億 Token 消耗，269K+ 請求，572 用戶，實際盈利退出。',
+          id: 'proj-1',
+          title: 'AI API 中轉平台',
+          image: '/portfolio/images/api-dashboard.png',
+          description: '面向中國大陸用戶的 AI API 中轉服務。累計 1,409.8 億 Token 消耗，569 萬+ 請求，572 用戶，實際盈利退出。',
       technologies: ['AI API', '支付系統', '快取優化', 'CLV 模型'],
       highlights: [
-        '142.20B Token 消耗，269,617 次請求，572 註冊用戶，盈利退出',
-        '管理 5+ 模型：GPT-5.4 / Claude Sonnet 4-6 / GPT-5.3 Codex / GPT-5.4 Mini / GPT-5.5',
-        '實際成本 $18.53K vs 標準成本 $22.38K，毛利率約 17%',
-        '快取命中率峰值接近 100%，平均響應時間 107ms',
-        '退出決策：競爭加劇 → 價格彈性上升 → 主動離場，驗證了 CLV 模型',
-      ],
+              '140.98B Token 消耗，5,689,657 次請求，572 註冊用戶，盈利退出',
+              '管理 5+ 模型：GPT-5.4 / Claude Sonnet 4-6 / GPT-5.3 Codex / GPT-5.4 Mini / GPT-5.5',
+              '實際成本 $29.23K vs 標準成本 $85.43K，快取節省 $22.51K',
+              '快取命中率峰值接近 100%，平均響應時間 107ms',
+              '退出決策：競爭加劇 → 價格彈性上升 → 主動離場，驗證了 CLV 模型',
+            ],
       github: undefined,
       link: 'https://api.negentropypath.xyz/admin/accounts',
     },
     {
-      id: 'proj-2',
-      title: 'AI 跟單交易系統',
-      description: 'AI 驅動的多交易員跟單系統——LLM 解析 Discord 交易信號，自動對接交易所執行交易。',
+          id: 'proj-2',
+          title: 'AI 跟單交易系統',
+          image: '/portfolio/images/copy-trading.png',
+          description: 'AI 驅動的多交易員跟單系統——LLM 解析 Discord 交易信號，自動對接交易所執行交易。',
       technologies: ['AI API', 'Discord API', '交易所 API', 'Docker', '雲伺服器'],
       highlights: [
         '累計交易 2,156 筆，覆蓋 12+ 個交易員信號源',
@@ -169,16 +172,17 @@ const zhTW = {
       link: undefined,
     },
     {
-      id: 'proj-3',
-      title: '量化交易執行引擎',
-      description: '多實例並行量化交易系統——BTC/USDC 永續合約做空策略，亞秒級延遲執行。',
+          id: 'proj-3',
+          title: '量化交易執行引擎',
+          image: '/portfolio/images/quant-engine.jpg',
+          description: '多實例並行量化交易系統——BTC/USDC 永續合約做空策略，亞秒級延遲執行。',
       technologies: ['Python', '交易所 REST API', '多進程架構', '風控系統'],
       highlights: [
         '系統延遲 261ms-273ms，實盤級執行能力',
         '多進程並行架構，獨立運行多個策略實例',
         '內置本地止損機制，單筆虧損控制在 0.3% 以內',
         '信號過濾流程：原始信號 → 確認（約 1.8s）→ 執行',
-        '核心認知：「技術只是工具，風控才是核心」',
+        '系統化風控框架：倉位管理、止損、批量止盈',
       ],
       github: undefined,
       link: undefined,
