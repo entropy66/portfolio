@@ -168,7 +168,7 @@ const zhCN = {
         '风控功能：亏损制仓、杠杆设置、批量止盈',
         '交易对覆盖 BTC、ETH、WLD、SOL 等主流币种',
       ],
-      github: 'https://github.com/entropy66/hermes-agent-deploy',
+      github: undefined,
       link: undefined,
     },
     {

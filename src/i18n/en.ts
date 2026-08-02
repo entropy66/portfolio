@@ -168,7 +168,7 @@ const en = {
         'Risk management: loss-based sizing, leverage settings, batch take-profit',
         'Trading pairs: BTC, ETH, WLD, SOL and other major cryptocurrencies',
       ],
-      github: 'https://github.com/entropy66/hermes-agent-deploy',
+      github: undefined,
       link: undefined,
     },
     {

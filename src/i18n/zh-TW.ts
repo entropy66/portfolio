@@ -168,7 +168,7 @@ const zhTW = {
         '風控功能：虧損制倉、槓桿設定、批量止盈',
         '交易對覆蓋 BTC、ETH、WLD、SOL 等主流幣種',
       ],
-      github: 'https://github.com/entropy66/hermes-agent-deploy',
+      github: undefined,
       link: undefined,
     },
     {
