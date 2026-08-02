@@ -81,30 +81,29 @@ const zhCN = {
     ],
 
   skillsData: [
-    // ── 工程管理 ──
-    { name: 'HKSSM 规范应用', category: 'engineering' as const },
-    { name: 'BQ 编写与成本估算', category: 'engineering' as const },
-    { name: '施工验收（RIF / ITAP）', category: 'engineering' as const },
-    { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
-    { name: '政府项目协调（招标→施工→验收）', category: 'engineering' as const },
+      // ── 工程管理 ──
+      { name: '招标文件审核与工程量数据整理', category: 'engineering' as const },
+      { name: '现场协调与质量验收管理', category: 'engineering' as const },
+      { name: '档案整理与信息管理', category: 'engineering' as const },
+      { name: '四方 Stakeholder 协调', category: 'engineering' as const },
 
-    // ── AI 工程 ──
-    { name: 'AI API 集成与平台搭建', category: 'ai' as const },
-    { name: 'LLM 应用开发（ChatGPT/Claude/DeepSeek）', category: 'ai' as const },
-    { name: 'Vibe Coding / AI 辅助开发', category: 'ai' as const },
-    { name: '数据分析与量化策略', category: 'ai' as const },
+      // ── AI 工程 ──
+      { name: 'AI API 集成与平台搭建', category: 'ai' as const },
+      { name: 'LLM 应用开发（ChatGPT/Claude/DeepSeek）', category: 'ai' as const },
+      { name: 'Vibe Coding / AI 辅助开发', category: 'ai' as const },
+      { name: '数据分析与量化策略', category: 'ai' as const },
 
-    // ── 技术工具 ──
-    { name: 'AutoCAD（2D 图纸）', category: 'tools' as const },
-    { name: 'Revit（BIM 建筑信息模型）', category: 'tools' as const },
-    { name: 'SAP2000（结构分析）', category: 'tools' as const },
+      // ── 技术工具 ──
+      { name: 'AutoCAD（2D 图纸）', category: 'tools' as const },
+      { name: 'Revit（BIM 建筑信息模型）', category: 'tools' as const },
+      { name: 'SAP2000（结构分析）', category: 'tools' as const },
 
-    // ── 核心优势 ──
-    { name: '3 个月从零基础独立负责政府项目', category: 'strengths' as const },
-    { name: '协调 3 个香港政府项目按期交付', category: 'strengths' as const },
-    { name: 'AI 平台 500+ 用户盈利后主动退场', category: 'strengths' as const },
-    { name: '量化亏损中提炼风控第一性原理', category: 'strengths' as const },
-  ],
+      // ── 核心优势 ──
+      { name: '3 个月从零基础独立负责政府项目', category: 'strengths' as const },
+      { name: '协调 3 个香港政府项目按期交付', category: 'strengths' as const },
+      { name: 'AI 平台 500+ 用户盈利后主动退场', category: 'strengths' as const },
+      { name: '交易系统中建立系统化风控框架', category: 'strengths' as const },
+    ],
 
   experienceData: [
     {

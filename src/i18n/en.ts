@@ -81,30 +81,29 @@ const en = {
     ],
 
   skillsData: [
-    // ── Engineering Management ──
-    { name: 'HKSSM Specification Application', category: 'engineering' as const },
-    { name: 'BQ Preparation & Cost Estimation', category: 'engineering' as const },
-    { name: 'Site Inspection (RIF / ITAP)', category: 'engineering' as const },
-    { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
-    { name: 'Govt Project Coordination (Tender→Site→Handover)', category: 'engineering' as const },
+      // ── Engineering Management ──
+      { name: 'Tender Document Review & Quantity Data Analysis', category: 'engineering' as const },
+      { name: 'Site Coordination & Quality Acceptance Management', category: 'engineering' as const },
+      { name: 'Records Management & Information Architecture', category: 'engineering' as const },
+      { name: 'Multi-party Stakeholder Coordination', category: 'engineering' as const },
 
-    // ── AI Engineering ──
-    { name: 'AI API Integration & Platform Building', category: 'ai' as const },
-    { name: 'LLM Application Development (ChatGPT/Claude/DeepSeek)', category: 'ai' as const },
-    { name: 'Vibe Coding / AI-assisted Development', category: 'ai' as const },
-    { name: 'Data Analysis & Quant Strategies', category: 'ai' as const },
+      // ── AI Engineering ──
+      { name: 'AI API Integration & Platform Building', category: 'ai' as const },
+      { name: 'LLM Application Development (ChatGPT/Claude/DeepSeek)', category: 'ai' as const },
+      { name: 'Vibe Coding / AI-assisted Development', category: 'ai' as const },
+      { name: 'Data Analysis & Quant Strategies', category: 'ai' as const },
 
-    // ── Tech Tools ──
-    { name: 'AutoCAD (2D Drafting)', category: 'tools' as const },
-    { name: 'Revit (BIM)', category: 'tools' as const },
-    { name: 'SAP2000 (Structural Analysis)', category: 'tools' as const },
+      // ── Tech Tools ──
+      { name: 'AutoCAD (2D Drafting)', category: 'tools' as const },
+      { name: 'Revit (BIM)', category: 'tools' as const },
+      { name: 'SAP2000 (Structural Analysis)', category: 'tools' as const },
 
-    // ── Key Strengths ──
-    { name: 'From zero to independent project lead in 3 months', category: 'strengths' as const },
-    { name: 'Coordinated 3 HK government projects to on-time delivery', category: 'strengths' as const },
-    { name: 'Built AI platform with 500+ users, profitable exit', category: 'strengths' as const },
-    { name: 'Extracted risk management first principles from quant loss', category: 'strengths' as const },
-  ],
+      // ── Key Strengths ──
+      { name: 'From zero to independent project lead in 3 months', category: 'strengths' as const },
+      { name: 'Coordinated 3 HK government projects to on-time delivery', category: 'strengths' as const },
+      { name: 'Built AI platform with 500+ users, profitable exit', category: 'strengths' as const },
+      { name: 'Built systematic risk framework for trading systems', category: 'strengths' as const },
+    ],
 
   experienceData: [
     {
