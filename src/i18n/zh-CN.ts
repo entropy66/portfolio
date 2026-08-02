@@ -8,7 +8,7 @@ const zhCN = {
   },
 
   hero: {
-    greeting: '工程背景 · 技术能力',
+    greeting: '建筑工程师 → 科技创业者',
     ctaProjects: '查看项目',
     ctaContact: '联系我',
     scrollHint: '向下滚动',
@@ -27,9 +27,10 @@ const zhCN = {
     label: '技能',
     heading: '技术能力',
     categories: {
-      engineering: '工程技术',
-      tech: '技术工具',
-      general: '核心能力',
+      engineering: '工程管理',
+      ai: 'AI 工程',
+      tools: '技术工具',
+      strengths: '核心优势',
     },
   },
 
@@ -58,9 +59,9 @@ const zhCN = {
 
   personal: {
     name: '张炜健',
-    title: '工程背景 · 技术能力',
+    title: '建筑工程师 → 科技创业者',
     tagline: '从工地到创业——用工程思维打造技术产品',
-    bio: '广东工业大学土木工程学士。在香港 Chevalier 建筑公司担任助理工程师 2 年——协调政府基建项目招标、施工、行政三个阶段，确保按时交付。2025 年开始科技创业，搭建 AI Token 平台，500+ 用户，1400+ 亿 Token 消耗，盈利。经历过量化交易亏损，深刻认识到"技术只是工具，风控才是核心"。正在寻找将工程思维与技术能力结合的新机会。',
+    bio: '广东工业大学土木工程学士。在香港 Chevalier 建筑公司担任助理工程师 2 年——协调政府基建项目招标、施工、行政三个阶段，确保按时交付。2025 年开始科技创业，搭建 AI Token 平台，500+ 用户，1400+ 亿 Token 消耗，盈利。在量化交易中验证了"技术只是工具，风控才是核心"的认知。正在寻找将工程思维与技术能力结合的新机会。',
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: '九龙城, 香港 / 南山, 深圳',
@@ -79,20 +80,29 @@ const zhCN = {
   ],
 
   skillsData: [
+    // ── 工程管理 ──
     { name: 'HKSSM 规范应用', category: 'engineering' as const },
     { name: 'BQ 编写与成本估算', category: 'engineering' as const },
     { name: '施工验收（RIF / ITAP）', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
-    { name: '项目协调与多方沟通', category: 'engineering' as const },
-    { name: 'AI 工具深度应用（ChatGPT / Claude / Codex / Claude Code / Vibe Coding）', category: 'tech' as const },
-    { name: 'AutoCAD（2D图纸绘制）', category: 'tech' as const },
-    { name: 'Revit（建筑信息模型 BIM）', category: 'tech' as const },
-    { name: 'SAP2000（结构分析与计算）', category: 'tech' as const },
-    { name: 'Python（数据分析、量化策略）', category: 'tech' as const },
-    { name: '解决问题能力：处理利益纠纷、解决施工技术问题', category: 'general' as const },
-    { name: '项目管理能力：协调3个香港政府项目，确保按期交付', category: 'general' as const },
-    { name: '风险判断能力：AI中转站主动离场，量化亏损中提炼风控认知', category: 'general' as const },
-    { name: '快速学习能力：3个月从零基础独立负责项目', category: 'general' as const },
+    { name: '政府项目协调（招标→施工→验收）', category: 'engineering' as const },
+
+    // ── AI 工程 ──
+    { name: 'AI API 集成与平台搭建', category: 'ai' as const },
+    { name: 'LLM 应用开发（ChatGPT/Claude/DeepSeek）', category: 'ai' as const },
+    { name: 'Vibe Coding / AI 辅助开发', category: 'ai' as const },
+    { name: '数据分析与量化策略', category: 'ai' as const },
+
+    // ── 技术工具 ──
+    { name: 'AutoCAD（2D 图纸）', category: 'tools' as const },
+    { name: 'Revit（BIM 建筑信息模型）', category: 'tools' as const },
+    { name: 'SAP2000（结构分析）', category: 'tools' as const },
+
+    // ── 核心优势 ──
+    { name: '3 个月从零基础独立负责政府项目', category: 'strengths' as const },
+    { name: '协调 3 个香港政府项目按期交付', category: 'strengths' as const },
+    { name: 'AI 平台 500+ 用户盈利后主动退场', category: 'strengths' as const },
+    { name: '量化亏损中提炼风控第一性原理', category: 'strengths' as const },
   ],
 
   experienceData: [
@@ -130,41 +140,45 @@ const zhCN = {
   projectsData: [
     {
       id: 'proj-1',
-      title: 'AI 跟单交易系统',
-      description: 'AI 驱动的跟单交易系统——LLM 解析 Discord 交易信号并自动执行交易。',
-      technologies: ['AI API', 'Discord API', '交易所 API', 'Docker', '云服务器'],
+      title: 'AI API 中转平台',
+      description: '面向中国大陆用户的 AI API 中转服务。累计 1,422 亿 Token 消耗，269K+ 请求，572 用户，实际盈利退出。',
+      technologies: ['AI API', '支付系统', '缓存优化', 'CLV 模型'],
       highlights: [
-        '一键部署：云服务器脚本完成系统搭建',
-        '信号解析：ChatGPT/DeepSeek 自动识别交易员信号',
-        '自动交易：对接 Bybit/Bitget/Binance 交易所 API',
-        '风控管理：亏损制仓、杠杆设置、批量止盈',
+        '142.20B Token 消耗，269,617 次请求，572 注册用户，盈利退出',
+        '管理 5+ 模型：GPT-5.4 / Claude Sonnet 4-6 / GPT-5.3 Codex / GPT-5.4 Mini / GPT-5.5',
+        '实际成本 $18.53K vs 标准成本 $22.38K，毛利率约 17%',
+        '缓存命中率峰值接近 100%，平均响应时间 107ms',
+        '退出决策：竞争加剧 → 价格弹性上升 → 主动离场，验证了 CLV 模型',
       ],
       github: undefined,
-      link: undefined,
+      link: 'https://api.negentropypath.xyz/admin/accounts',
     },
     {
       id: 'proj-2',
-      title: 'AI Token 平台',
-      description: '解决中国大陆用户无法访问 ChatGPT/Claude 的信息不对称问题。用 CLV 模型和 ROI 夏普比率验证。',
-      technologies: ['AI API', '支付系统', '平台'],
+      title: 'AI 跟单交易系统',
+      description: 'AI 驱动的多交易员跟单系统——LLM 解析 Discord 交易信号，自动对接交易所执行交易。',
+      technologies: ['AI API', 'Discord API', '交易所 API', 'Docker', '云服务器'],
       highlights: [
-        '模型验证：CLV/CAC > 5，正向 ROI，持续 Token 消耗',
-        '500+ 用户注册，1400+ 亿 Token 消耗，盈利',
-        '退出决策：竞争加剧 → 价格弹性上升 → 主动离场',
-        '在真实商业中验证了 CLV 模型和 ROI 夏普比率理论',
+        '累计交易 2,156 笔，覆盖 12+ 个交易员信号源',
+        'TOP1 交易员收益 +$4,727.17，手续费累计 $11,782.57',
+        '支持 Bybit / Bitget / Binance 三大交易所',
+        '风控功能：亏损制仓、杠杆设置、批量止盈',
+        '交易对覆盖 BTC、ETH、WLD、SOL 等主流币种',
       ],
-      github: undefined,
+      github: 'https://github.com/entropy66/hermes-agent-deploy',
       link: undefined,
     },
     {
       id: 'proj-3',
-      title: '量化交易探索',
-      description: 'AI 辅助量化交易策略——从失败中提炼风控方法论。',
-      technologies: ['AI 工具', '数据分析'],
+      title: '量化交易执行引擎',
+      description: '多实例并行量化交易系统——BTC/USDC 永续合约做空策略，亚秒级延迟执行。',
+      technologies: ['Python', '交易所 REST API', '多进程架构', '风控系统'],
       highlights: [
-        '借助 AI 开发自动化交易策略',
-        '因风控不足导致亏损，提炼核心教训',
-        '认知升级：过度依赖 AI、风控薄弱、缺乏实盘经验',
+        '系统延迟 261ms-273ms，实盘级执行能力',
+        '多进程并行架构，独立运行多个策略实例',
+        '内置本地止损机制，单笔亏损控制在 0.3% 以内',
+        '信号过滤流程：原始信号 → 确认（约 1.8s）→ 执行',
+        '核心认知："技术只是工具，风控才是核心"',
       ],
       github: undefined,
       link: undefined,

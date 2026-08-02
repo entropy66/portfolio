@@ -8,7 +8,7 @@ const en = {
   },
 
   hero: {
-    greeting: 'Engineering · Technology',
+    greeting: 'Building Engineer → Tech Entrepreneur',
     ctaProjects: 'View Projects',
     ctaContact: 'Contact Me',
     scrollHint: 'Scroll Down',
@@ -27,9 +27,10 @@ const en = {
     label: 'Skills',
     heading: 'Technical Abilities',
     categories: {
-      engineering: 'Engineering',
-      tech: 'Tech Tools',
-      general: 'Core Competencies',
+      engineering: 'Engineering Management',
+      ai: 'AI Engineering',
+      tools: 'Tech Tools',
+      strengths: 'Key Strengths',
     },
   },
 
@@ -58,9 +59,9 @@ const en = {
 
   personal: {
     name: 'Zhang Weijian',
-    title: 'Engineering Background · Technical Skills',
+    title: 'Building Engineer → Tech Entrepreneur',
     tagline: 'From construction site to startup — building tech products with engineering thinking',
-    bio: 'B.Eng. in Civil Engineering from Guangdong University of Technology. 2 years as Assistant Engineer at Chevalier Construction in Hong Kong — coordinated government infrastructure projects across tender, site, and admin phases, ensuring on-time delivery. Started a tech business in 2025, building an AI token platform with 500+ users and 140B+ tokens consumed, profitable. Experienced a quant trading loss due to poor risk management, learning that "technology is just a tool, risk management is the core". Seeking opportunities that combine engineering thinking with technical capability.',
+    bio: 'B.Eng. in Civil Engineering from Guangdong University of Technology. 2 years as Assistant Engineer at Chevalier Construction in Hong Kong — coordinated government infrastructure projects across tender, site, and admin phases, ensuring on-time delivery. Started a tech business in 2025, building an AI token platform with 500+ users and 140B+ tokens consumed, profitable. Learned from a quant trading setback that "technology is just a tool, risk management is the core". Seeking opportunities that combine engineering thinking with technical capability.',
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: 'Kowloon City, HK / Nanshan, Shenzhen',
@@ -75,24 +76,33 @@ const en = {
   stats: [
     { value: '500+', label: 'Users' },
     { value: '140B+', label: 'Tokens' },
-    { value: 'Profit', label: 'Exit' },
+    { value: 'Profitable', label: 'Exit on Principle' },
   ],
 
   skillsData: [
+    // ── Engineering Management ──
     { name: 'HKSSM Specification Application', category: 'engineering' as const },
     { name: 'BQ Preparation & Cost Estimation', category: 'engineering' as const },
     { name: 'Site Inspection (RIF / ITAP)', category: 'engineering' as const },
     { name: 'Code of Practice / Buildings Ordinance', category: 'engineering' as const },
-    { name: 'Project Coordination & Multi-stakeholder Communication', category: 'engineering' as const },
-    { name: 'AI Tools Deep Application (ChatGPT / Claude / Codex / Claude Code / Vibe Coding)', category: 'tech' as const },
-    { name: 'AutoCAD (2D Drafting)', category: 'tech' as const },
-    { name: 'Revit (BIM)', category: 'tech' as const },
-    { name: 'SAP2000 (Structural Analysis)', category: 'tech' as const },
-    { name: 'Python (Data Analysis, Quant Strategies)', category: 'tech' as const },
-    { name: 'Problem-solving: dispute resolution, construction technical issues', category: 'general' as const },
-    { name: 'Project Management: coordinated 3 HK government projects', category: 'general' as const },
-    { name: 'Risk Judgment: proactive exit from AI platform, risk lessons from quant loss', category: 'general' as const },
-    { name: 'Fast Learning: from zero to independent project lead in 3 months', category: 'general' as const },
+    { name: 'Govt Project Coordination (Tender→Site→Handover)', category: 'engineering' as const },
+
+    // ── AI Engineering ──
+    { name: 'AI API Integration & Platform Building', category: 'ai' as const },
+    { name: 'LLM Application Development (ChatGPT/Claude/DeepSeek)', category: 'ai' as const },
+    { name: 'Vibe Coding / AI-assisted Development', category: 'ai' as const },
+    { name: 'Data Analysis & Quant Strategies', category: 'ai' as const },
+
+    // ── Tech Tools ──
+    { name: 'AutoCAD (2D Drafting)', category: 'tools' as const },
+    { name: 'Revit (BIM)', category: 'tools' as const },
+    { name: 'SAP2000 (Structural Analysis)', category: 'tools' as const },
+
+    // ── Key Strengths ──
+    { name: 'From zero to independent project lead in 3 months', category: 'strengths' as const },
+    { name: 'Coordinated 3 HK government projects to on-time delivery', category: 'strengths' as const },
+    { name: 'Built AI platform with 500+ users, profitable exit', category: 'strengths' as const },
+    { name: 'Extracted risk management first principles from quant loss', category: 'strengths' as const },
   ],
 
   experienceData: [
@@ -130,41 +140,45 @@ const en = {
   projectsData: [
     {
       id: 'proj-1',
-      title: 'AI Copy Trading System',
-      description: 'AI-powered copy trading system — LLM parses Discord trading signals and executes trades automatically.',
-      technologies: ['AI API', 'Discord API', 'Exchange API', 'Docker', 'Cloud Server'],
+      title: 'AI API Gateway',
+      description: 'AI API proxy service for mainland China users. 142.20B tokens consumed, 269K+ requests, 572 users, profitable exit.',
+      technologies: ['AI API', 'Payment System', 'Cache Optimization', 'CLV Model'],
       highlights: [
-        'One-click deployment: cloud server script completes system setup',
-        'Signal parsing: ChatGPT/DeepSeek auto-identifies trader signals',
-        'Auto trading: integrated with Bybit/Bitget/Binance exchange APIs',
-        'Risk management: loss-based sizing, leverage settings, batch take-profit',
+        '142.20B tokens consumed, 269,617 requests, 572 registered users, profitable exit',
+        'Managed 5+ models: GPT-5.4 / Claude Sonnet 4-6 / GPT-5.3 Codex / GPT-5.4 Mini / GPT-5.5',
+        'Actual cost $18.53K vs standard cost $22.38K, ~17% gross margin',
+        'Cache hit rate peaked at ~100%, average response time 107ms',
+        'Exit decision: rising competition → price elasticity increase → proactive exit, validated CLV model',
       ],
       github: undefined,
-      link: undefined,
+      link: 'https://api.negentropypath.xyz/admin/accounts',
     },
     {
       id: 'proj-2',
-      title: 'AI Token Platform',
-      description: 'Solving information asymmetry for mainland China users unable to access ChatGPT/Claude. Validated with CLV model and ROI Sharpe Ratio.',
-      technologies: ['AI API', 'Payment System', 'Platform'],
+      title: 'AI Copy Trading System',
+      description: 'AI-powered multi-trader copy trading system — LLM parses Discord trading signals and executes trades automatically.',
+      technologies: ['AI API', 'Discord API', 'Exchange API', 'Docker', 'Cloud Server'],
       highlights: [
-        'Model validation: CLV/CAC > 5, positive ROI, sustained token consumption',
-        '500+ users registered, 140B+ tokens consumed, profitable',
-        'Exit decision: rising competition → increasing price elasticity → proactive exit',
-        'Validated CLV model and ROI Sharpe Ratio theory in real business',
+        '2,156 total trades executed, covering 12+ trader signal sources',
+        'TOP1 trader profit +$4,727.17, total fees $11,782.57',
+        'Integrated with Bybit / Bitget / Binance exchanges',
+        'Risk management: loss-based sizing, leverage settings, batch take-profit',
+        'Trading pairs: BTC, ETH, WLD, SOL and other major cryptocurrencies',
       ],
-      github: undefined,
+      github: 'https://github.com/entropy66/hermes-agent-deploy',
       link: undefined,
     },
     {
       id: 'proj-3',
-      title: 'Quantitative Trading Exploration',
-      description: 'AI-assisted quant trading strategy — extracting risk management methodology from failure.',
-      technologies: ['AI Tools', 'Data Analysis'],
+      title: 'Quantitative Trading Engine',
+      description: 'Multi-instance parallel quant trading system — BTC/USDC perpetual contract short strategy with sub-second latency.',
+      technologies: ['Python', 'Exchange REST API', 'Multi-process Architecture', 'Risk Control'],
       highlights: [
-        'Developed automated trading strategy with AI assistance',
-        'Experienced loss due to insufficient risk management, extracted core lessons',
-        'Cognitive upgrade: over-reliance on AI, weak risk control, lack of live trading experience',
+        'System latency 261ms-273ms, live-trading grade execution',
+        'Multi-process parallel architecture running independent strategy instances',
+        'Built-in local stop-loss, single trade loss controlled within 0.3%',
+        'Signal pipeline: raw signal → confirmation (~1.8s) → execution',
+        'Core insight: "technology is just a tool, risk management is the core"',
       ],
       github: undefined,
       link: undefined,

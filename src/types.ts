@@ -19,7 +19,7 @@ export interface SocialLink {
 
 export interface Skill {
   name: string
-  category: 'engineering' | 'tech' | 'general'
+  category: 'engineering' | 'ai' | 'tools' | 'strengths'
 }
 
 export interface Experience {

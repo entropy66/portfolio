@@ -4,7 +4,7 @@ import { useI18n } from '../../i18n/context'
 import { useScrollReveal } from '../../hooks/useScrollReveal'
 import styles from './Skills.module.css'
 
-const CATEGORY_ORDER: Skill['category'][] = ['engineering', 'tech', 'general']
+const CATEGORY_ORDER: Skill['category'][] = ['engineering', 'ai', 'tools', 'strengths']
 
 export function Skills() {
   const { t } = useI18n()
