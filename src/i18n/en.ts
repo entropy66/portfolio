@@ -49,7 +49,7 @@ const en = {
   contact: {
     label: 'Contact',
     heading: "Let's Talk",
-    description: 'Whether for job opportunities or tech discussions, feel free to reach out.',
+    description: 'Interested in product / data roles. If you are building something in AI, infrastructure, or fintech — let\'s talk.',
   },
 
   footer: {
@@ -61,7 +61,7 @@ const en = {
     name: 'Zhang Weijian',
     title: 'Building Engineer → Tech Entrepreneur',
     tagline: 'From construction site to startup — building tech products with engineering thinking',
-    bio: 'B.Eng. in Civil Engineering from Guangdong University of Technology. 2 years as Assistant Engineer at Chevalier Construction in Hong Kong — coordinated government infrastructure projects across tender, site, and admin phases, ensuring on-time delivery. Started a tech business in 2025, building an AI token platform with 500+ users and 140B+ tokens consumed, profitable. Learned from a quant trading setback that "technology is just a tool, risk management is the core". Seeking opportunities that combine engineering thinking with technical capability.',
+    bio: 'Built and operated a profitable AI API platform serving 572 users and processing 140B+ tokens — exited on market timing. Previously 2 years as Assistant Engineer at Chevalier Construction in Hong Kong, coordinating government infrastructure projects from tender to handover. Combined engineering rigor with technical execution to build real products. Now looking for product / data roles where I can apply the same builder mindset.',
     email: 'entropy688@gmail.com',
     phone: '+86 173-8880-5447',
     location: 'Kowloon City, HK / Nanshan, Shenzhen',
@@ -74,10 +74,11 @@ const en = {
   },
 
   stats: [
-    { value: '500+', label: 'Users' },
-    { value: '140B+', label: 'Tokens' },
-    { value: 'Profitable', label: 'Exit on Principle' },
-  ],
+      { value: '5.69M+', label: 'Requests' },
+      { value: '500+', label: 'Users' },
+      { value: '140B+', label: 'Tokens' },
+      { value: 'Profitable', label: 'Exit on Timing' },
+    ],
 
   skillsData: [
     // ── Engineering Management ──
@@ -126,13 +127,13 @@ const en = {
       company: 'Independent Startup',
       role: 'Tech Entrepreneur',
       period: '2025.11 — 2026.06',
-      description: 'Explored tech entrepreneurship — AI platform profitable, quant strategy experienced setback with core lesson learned.',
+      description: 'Explored tech entrepreneurship — built AI platform profitable, built quant trading system with systematic risk controls.',
       highlights: [
-        'Built AI Token trading platform: 500+ users, 140B+ tokens consumed, profitable',
-        'Proactively exited due to rising competition and ban risk — demonstrated risk judgment',
-        'Developed AI-assisted quant strategy, experienced loss due to poor risk management, extracted "risk management > tech" insight',
-        'Built AI-powered market information processing platform, improved data processing efficiency',
-      ],
+              'Built AI API gateway: 572 users, 140B+ tokens, 5.69M requests, profitable exit',
+              'Exited proactively as competition intensified — validated CLV-based decision framework',
+              'Developed AI-assisted quant trading system with systematic risk controls (position sizing, stop-loss, batch take-profit)',
+              'Built AI-powered market information processing platform, improved data processing efficiency',
+            ],
       technologies: ['AI API', 'Data Analysis', 'AI Tools'],
     },
   ],
@@ -178,7 +179,7 @@ const en = {
         'Multi-process parallel architecture running independent strategy instances',
         'Built-in local stop-loss, single trade loss controlled within 0.3%',
         'Signal pipeline: raw signal → confirmation (~1.8s) → execution',
-        'Core insight: "technology is just a tool, risk management is the core"',
+        'Systematic risk framework: position sizing, stop-loss, and batch take-profit',
       ],
       github: undefined,
       link: undefined,
