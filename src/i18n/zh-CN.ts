@@ -146,7 +146,7 @@ const zhCN = {
       technologies: ['AI API', '支付系统', '缓存优化', 'CLV 模型'],
       highlights: [
         '140.98B Token 消耗，5,689,657 次请求，572 注册用户，盈利退出',
-        '管理 5+ 模型：GPT-5.4 / Claude Sonnet 4-6 / GPT-5.3 Codex / GPT-5.4 Mini / GPT-5.5',
+        '管理 5+ 模型：OpenAI（GPT-4o/5）、Claude、Gemini、DeepSeek',
         '实际成本 $29.23K vs 标准成本 $85.43K，缓存节省 $22.51K',
         '缓存命中率峰值接近 100%，平均响应时间 107ms',
         '退出决策：竞争加剧 → 价格弹性上升 → 主动离场，验证了 CLV 模型',
